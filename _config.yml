@@ -46,6 +46,10 @@ social:
   - title: google
     url: mailto:agustinbrasburg@gmail.com
 
+collections:
+  education:
+    output: true
+
 # Postal address (add as many lines as necessary)
 address:
   - line: Ciudad Autónoma de Buenos Aires, Argentina
