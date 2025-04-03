@@ -4,7 +4,7 @@ modal-id: 3
 date: 2014-07-16
 img: daily_problem.png
 alt: image-alt
-project-date: April 2014
+project-date: Sigue  en curso
 client: Daily Problem
 category: Python, Division y Conquista, Algoritmos Randomizados, Programacion Dinamica
 description: |
