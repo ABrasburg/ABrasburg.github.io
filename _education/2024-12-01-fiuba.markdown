@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2024-12-01
+img: fiuba.png
+alt: image-alt
+project-date: Diciembre 2024
+client: Fiuba
+description: |
+ Egresado de la carrera Ingenieria en Informatica
+---
