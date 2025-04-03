@@ -5,7 +5,7 @@ date: 2017-12-01
 img: ort.png
 alt: image-alt
 project-date: Diciembre 2017
-client: ORT Argentina
+institution: ORT Argentina
 description: |
  Egresado de la carrera Bachiller tecnico con orientacion en informatica y medios de comunicacion digitales
 ---

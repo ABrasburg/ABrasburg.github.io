@@ -25,9 +25,9 @@ disqus_shortname: abrasburg
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 1e88e5  # Azul vibrante
+  primary: 336699  # Azul vibrante
   primary-rgb: "30,136,229"
-  secondary: ff9800  # Naranja intenso
+  secondary: ff9900  # Naranja intenso
   secondary-dark: e65100  # Naranja oscuro
 
 # Footer settings
