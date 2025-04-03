@@ -1,29 +1,34 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-04-03 10:08:44 -0300
-categories: jekyll update
+layout: default
+title: "Bienvenido a Mi Sitio"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# 🌟 Bienvenido a [Tu Nombre o Nombre del Sitio] 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+¡Hola y bienvenido a mi espacio en la web! Aquí encontrarás información sobre **[tu temática principal]**. 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Sobre mí
 
-Jekyll also offers powerful support for code snippets:
+✍️ **[Tu nombre o alias]**  
+📍 **Ubicación (opcional)**  
+📢 **Breve descripción sobre ti o tu proyecto.**
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Lo que encontrarás aquí
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+✅ **[Tema principal 1]**  
+✅ **[Tema principal 2]**  
+✅ **[Tema principal 3]**  
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Últimos artículos
+
+{% for post in site.posts limit:3 %}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}
+
+## Contacto
+
+Si quieres ponerte en contacto, puedes escribirme a: **[tu email o formulario de contacto]** o seguirme en **[tus redes sociales]**.
+
+---
+
+_Disfruta explorando el sitio y no dudes en volver pronto._ 🌟
