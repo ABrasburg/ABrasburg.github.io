@@ -1,11 +1,13 @@
 ---
-layout: default
-title: "Bienvenido a Mi Sitio"
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2025-04-03 10:08:44 -0300
+categories: jekyll update
 ---
 
-# 🌟 Bienvenido a [Tu Nombre o Nombre del Sitio] 
+# 🌟 Bienvenido a [Tu Nombre o Nombre del Sitio]
 
-¡Hola y bienvenido a mi espacio en la web! Aquí encontrarás información sobre **[tu temática principal]**. 
+¡Hola y bienvenido a mi espacio en la web! Aquí encontrarás información sobre **[tu temática principal]**.
 
 ## Sobre mí
 
@@ -32,3 +34,4 @@ Si quieres ponerte en contacto, puedes escribirme a: **[tu email o formulario de
 ---
 
 _Disfruta explorando el sitio y no dudes en volver pronto._ 🌟
+
