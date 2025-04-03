@@ -8,9 +8,9 @@ project-date: Diciembre 2023
 client: Taller de programacion
 category: Control de versiones, Rust, Git
 description: |
-Este proyecto consiste en el desarrollo de un Cliente y Servidor Git con funcionalidades acotadas, implementado en Rust. Su objetivo principal es replicar operaciones básicas de Git, como clonar repositorios, realizar commits, manejar ramas y sincronizar cambios con un servidor propio que respete el protocolo Git Transport.
+  Este proyecto consiste en el desarrollo de un Cliente y Servidor Git con funcionalidades acotadas, implementado en Rust. Su objetivo principal es replicar operaciones básicas de Git, como clonar repositorios, realizar commits, manejar ramas y sincronizar cambios con un servidor propio que respete el protocolo Git Transport.
 
-El cliente cuenta con una interfaz gráfica sencilla para visualizar la historia de commits y gestionar ramas. Además, permite la configuración mediante un archivo similar a "gitconfig" y mantiene un log de operaciones realizadas.
+  El cliente cuenta con una interfaz gráfica sencilla para visualizar la historia de commits y gestionar ramas. Además, permite la configuración mediante un archivo similar a "gitconfig" y mantiene un log de operaciones realizadas.
 
-Por su parte, el servidor implementa **upload-pack** y **receive-pack**, asegurando la comunicación con el cliente. Se diseñó para soportar múltiples conexiones simultáneas usando threads, evitando bloqueos en la atención de solicitudes. En caso de conflictos entre cambios de distintos clientes, se siguen los estándares de Git para su resolución.
+  Por su parte, el servidor implementa **upload-pack** y **receive-pack**, asegurando la comunicación con el cliente. Se diseñó para soportar múltiples conexiones simultáneas usando threads, evitando bloqueos en la atención de solicitudes. En caso de conflictos entre cambios de distintos clientes, se siguen los estándares de Git para su resolución.
 ---
