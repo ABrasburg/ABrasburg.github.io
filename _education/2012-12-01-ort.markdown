@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 2
-date: 2017-12-01
+start-date: 2012-03-01
+end-date: 2017-12-01
 img: ort.png
 alt: image-alt
-project-date: Diciembre 2017
 institution: ORT Argentina
 description: |
  Egresado de la carrera Bachiller tecnico con orientacion en informatica y medios de comunicacion digitales

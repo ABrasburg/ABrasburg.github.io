@@ -1,0 +1,49 @@
+<!-- Education Modals -->
+{% for edu in site.education %}
+<div class="education-modal modal fade" id="educationModal-{{ edu.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ edu.title }}</h2>
+            <hr class="star-primary">
+            <img src="img/education/{{ edu.img }}" class="img-responsive img-centered" alt="{{ edu.alt }}">
+            {% if edu.description %}
+            <p>{{ edu.description | markdownify }}</p>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if edu.institution %}
+              <li>Institución:
+                <strong>{{ edu.institution }}</strong>
+              </li>
+              {% endif %}
+              {% if edu.degree %}
+              <li>Título:
+                <strong>{{ edu.degree }}</strong>
+              </li>
+              {% endif %}
+              {% if edu.start-date and edu.end-date %}
+              <li>Duración:
+                <strong>{{ edu.start-date }} - {{ edu.end-date }}</strong>
+              </li>
+              {% elsif edu.start-date %}
+              <li>Inicio:
+                <strong>{{ edu.start-date }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

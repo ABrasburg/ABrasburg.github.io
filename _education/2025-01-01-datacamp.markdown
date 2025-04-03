@@ -1,7 +1,8 @@
 ---
 layout: default
 modal-id: 1
-date: 2024-12-01
+start-date: 2024-12-01
+end-date: today
 img: datacamp.png
 alt: image-alt
 project-date: Enero 2025

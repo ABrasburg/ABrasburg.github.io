@@ -10,15 +10,16 @@
     <div class="portfolio-flex-row">
       {% for edu in site.education %}
       <div class="portfolio-flex-item education-item">
-        <div class="caption">
-          <div class="caption-content">
-            <h3>{{ edu.title }}</h3>
-            <p><strong>{{ edu.institution }}</strong></p>
-            <p>{{ edu.date }}</p>
-            <p>{{ edu.description }}</p>
+        <a href="#educationModal-{{ edu.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <h3>{{ edu.title }}</h3>
+              <p><strong>{{ edu.institution }}</strong></p>
+              <p>{{ edu.start-date }} - {{ edu.end-date }}</p>
+            </div>
           </div>
-        </div>
-        <img src="img/education/{{ edu.img }}" class="img-responsive" alt="{{ edu.alt }}">
+          <img src="img/education/{{ edu.img }}" class="img-responsive" alt="{{ edu.alt }}">
+        </a>
       </div>
       {% endfor %}
     </div>
