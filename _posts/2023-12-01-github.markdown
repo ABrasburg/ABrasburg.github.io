@@ -4,7 +4,7 @@ modal-id: 2
 date: 2023-12-01
 img: GitHub.png
 alt: image-alt
-project-date: Diciembre de 2023
+project-date: Diciembre 2023
 client: Taller de programacion
 category: Control de versiones, Rust, Git
 description: Este proyecto consiste en el desarrollo de un Cliente y Servidor Git con funcionalidades acotadas, implementado en Rust. Su objetivo principal es replicar operaciones básicas de Git, como clonar repositorios, realizar commits, manejar ramas y sincronizar cambios con un servidor propio que respete el protocolo Git Transport.
