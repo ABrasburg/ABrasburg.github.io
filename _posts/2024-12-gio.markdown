@@ -1,0 +1,24 @@
+---
+layout: default
+modal-id: 1
+date: 2024-12
+img: gio.png
+alt: image-alt
+project-date: Diciembre  2024
+client: Barrios de Pie
+category: API, Front end, Python, React
+description: En el marco de la materia del Trabajo Profesional este proyecto consistió en el desarrollo de una plataforma de gestión interna para la organización sin fines de lucro “Barrios de Pie”. Se identifica un problema crítico que consiste en la gestión descentralizada de la información mediante herramientas como WhatsApp, Gmail y Google Drive , lo que dificulta el seguimiento efectivo de tareas, proyectos, fondos y cooperativas vinculadas con la organización.
+
+La aplicación GIO, Gestión Integral Organizativa, tiene un enfoque a la seguridad e integridad de los datos, razón por la cual no se permite el registro de usuarios externos a la organización sino que el usuario a cargo del sistema y cuyo rol es “Super Administrador” debe encargarse de ingresar al nuevo usuario.
+
+Una vez que se obtuvo acceso al sistema es posible en primer lugar crear una personería para representar las distintas organizaciones que gestiona Barrios de Pie, requiriendo toda la información necesaria para esto y permitiendo subir todos los documentos que son requeridos para su creación. Dentro de las funciones necesarias para la gestión de una personería se encuentran la existencia de un conjunto de autoridades que estén vigentes al día de la fecha de creación para así inicializar la personería en un estado válido.
+
+Posteriormente a la creación de la personería, es posible crear un proyecto en el sistema que es actualmente gestionado por la personería. Dentro se cargará toda la información y documentación necesaria para poder realizar un seguimiento efectivo del mismo. Entre las funciones disponibles es posible llevar un registro de su presupuesto.
+
+A su vez, el sistema permite a los usuarios el uso de mensajería interna mediante chats individuales o grupales, concentrando toda la información referida a la gestión de la organización en un solo lugar haciendo innecesario el uso de herramientas externas como WhatsApp.
+
+Por otro lado el sistema ofrece un servicio de calendario para que se pueda visualizar de forma fácil y rápida fechas de vencimientos de proyectos, fechas de vencimiento de las autoridades entre otras para poder estar al tanto sin tener que estar entrando a cada una. Además, en la pantalla inicial se pueden ver los documentos de las personerías asociadas al usuario que ya vencieron o que vencen en los próximos 30 días.
+
+Por último también se desarrolló un módulo de control sobre los centros comunitarios que la organización maneja, ofreciéndoles facilidades para el manejo de cantidad de personas de cada uno, el tipo de atención que brindan y la ubicación de cada uno para así poder exportarlos y generar reportes sobre estos centros.
+
+---
