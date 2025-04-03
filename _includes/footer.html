@@ -22,6 +22,12 @@
             {% endfor %}
           </ul>
         </div>
+        <h3>{{ site.footer.desarrollado }}</h3>
+          <p>
+            {% for linea in site.desarrollado %}
+            {{ linea.line }} <br>
+            {% endfor %}
+          </p>
       </div>
     </div>
   </div>

@@ -42,10 +42,16 @@ social:
     url: https://www.linkedin.com/in/agustin-brasburg
   - title: github
     url: http://github.com/ABrasburg
+  - title: gmail
+    url: agustinbrasburg@gmail.com
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Ciudad Autónoma de Buenos Aires, Argentina
+
+# Credits
+desarrollado:
+  - line: "Desarrollado con Jekyll y GitHub Pages."
 
 # Build settings
 markdown: kramdown
