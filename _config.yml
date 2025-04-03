@@ -35,6 +35,7 @@ footer:
   copyright: Agustin Brasburg
   location: Donde estoy
   social: Mis redes sociales
+  desarrollado: Con que esta hecho
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -43,7 +44,7 @@ social:
   - title: github
     url: http://github.com/ABrasburg
   - title: gmail
-    url: agustinbrasburg@gmail.com
+    url: mailto:agustinbrasburg@gmail.com
 
 # Postal address (add as many lines as necessary)
 address:
