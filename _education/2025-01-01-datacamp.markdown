@@ -1,0 +1,17 @@
+---
+layout: default
+modal-id: 1
+date: 2024-12-01
+img: datacamp.png
+alt: image-alt
+project-date: Enero 2025
+institution: Fiuba
+description: |
+ Cursos:
+ - Intermediate SQL
+ - Intermediate Python
+
+ Tracks:
+ - AWS Cloud Practitioner (CLF-C02)
+ - GitHub Foundations
+---
