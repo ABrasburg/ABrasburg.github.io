@@ -6,11 +6,7 @@ img: gio.png
 alt: image-alt
 project-date: Diciembre  2024
 client: Barrios de Pie
-category: 
-  - API
-  - Frontend
-  - Python
-  - React
+category: API, Frontend, Python, React
 description: |
   En el marco de la materia Trabajo Profesional, este proyecto consistió en el desarrollo de una plataforma de gestión interna para la organización sin fines de lucro “Barrios de Pie”.  
   Se identificó un problema crítico: la gestión descentralizada de la información mediante herramientas como WhatsApp, Gmail y Google Drive, lo que dificulta el seguimiento efectivo de tareas, proyectos, fondos y cooperativas vinculadas con la organización.
