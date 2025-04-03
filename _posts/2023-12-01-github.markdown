@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2023-12-01
-img: GitHub.png
+img: github.png
 alt: image-alt
 project-date: Diciembre 2023
 client: Taller de programacion
