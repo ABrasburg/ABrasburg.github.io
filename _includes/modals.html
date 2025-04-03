@@ -25,6 +25,11 @@
                 <strong>{{ post.client }}</strong>
               </li>
               {% endif %}
+              {% if post.institution %}
+              <li>Para:
+                <strong>{{ post.institution }}</strong>
+              </li>
+              {% endif %}
               {% if post.project-date %}
               <li>Fecha cuando se termino:
                 <strong>{{ post.project-date }}</strong>
