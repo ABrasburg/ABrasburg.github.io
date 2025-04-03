@@ -1,25 +1,25 @@
 <!-- Education Section -->
-<section id="education">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Educación</h2>
-          <hr class="star-primary">
-        </div>
-      </div>
-      <div class="row">
-        {% for edu in site.education %}
-        <div class="portfolio-flex-item portfolio-item">
-          <a href="#portfolioModal-{{ post.modal-id }}" class="education-link" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img src="img/education/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-          </a>
-        </div>
-        {% endfor %}
+<section id="portfolio">
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Educación</h2>
+        <hr class="star-primary">
       </div>
     </div>
+    <div class="portfolio-flex-row">
+      {% for edu in site.education %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/education/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
