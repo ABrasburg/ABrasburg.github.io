@@ -9,10 +9,10 @@ project-date: Enero 2025
 institution: Fiuba
 description: |
  Cursos:
- - Intermediate SQL
- - Intermediate Python
+ Intermediate SQL
+ Intermediate Python
 
  Tracks:
- - AWS Cloud Practitioner (CLF-C02)
- - GitHub Foundations
+ AWS Cloud Practitioner (CLF-C02)
+ GitHub Foundations
 ---
