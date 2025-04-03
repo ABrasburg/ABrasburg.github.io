@@ -10,13 +10,13 @@
     <div class="portfolio-flex-row">
       {% for edu in site.education %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio" data-toggle="modal">
+        <a href="#portfolioModal-{{ edu.modal-id }}" class="education" data-toggle="modal_education">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/education/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="img/education/{{ edu.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
       </div>
       {% endfor %}
