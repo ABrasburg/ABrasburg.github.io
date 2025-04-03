@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 1
-start-date: 2017-03-01
-end-date: 2024-12-01
+start-date: 01/03/2017
+end-date: 01/12/2024
 img: fiuba.png
 alt: image-alt
 project-date: Diciembre 2024

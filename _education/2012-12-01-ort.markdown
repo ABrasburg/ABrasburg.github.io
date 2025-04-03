@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 2
-start-date: 2012-03-01
-end-date: 2017-12-01
+start-date: 01/03/2013
+end-date: 01/11/2017
 img: ort.jpeg
 alt: image-alt
 institution: ORT Argentina
