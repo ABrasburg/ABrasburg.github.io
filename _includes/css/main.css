@@ -488,14 +488,11 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.portfolio-flex-item img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     object-position: center center;
+    margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content .item-details {
